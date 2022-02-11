@@ -5,10 +5,10 @@
 
 
 3#. import streamlit as st
-st.header ("celcius to farenheit")
-st.write ("temp conversion")
-c=st.number_input("input the temp in celcius ")
-st.write ("temp in farenheit is ",(c*9/5)+32)
+st.header("celcius to farenheit")
+st.write("temp conversion")
+c = st.number_input("input the temp in celcius ")
+st.write("temp in farenheit is ",(c*9/5)+32)
 
 
 # In[2]:
